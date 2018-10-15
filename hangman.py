@@ -33,9 +33,7 @@ def get_random_word(words):
 
 	game_words = {'word': rand_word, 'guess': disp_word}
 
-	# print(rand_word)
 	return(game_words)
-
 
 # create list from text file
 words = []
@@ -107,4 +105,3 @@ while play_game:
 					print('Bye yo!')
 				ask_play_again = False
 
-				
